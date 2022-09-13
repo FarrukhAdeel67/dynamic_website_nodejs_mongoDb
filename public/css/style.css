@@ -1,0 +1,7 @@
+.slider-image{
+    height: 550px !important;
+    object-fit: cover;
+}
+#header-logo{
+    border-radius: 50%;
+}
