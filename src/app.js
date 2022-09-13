@@ -4,6 +4,7 @@ const port = 5000;
 const hbs = require("hbs");
 const  mongoose = require('mongoose');
 const Detail = require("./models/Detail")
+const Slider = require("./models/Slider");
 
 const routes = require("./routes/main");//
 // e.g: static/css/style.css
@@ -46,6 +47,29 @@ mongoose.connect("mongodb+srv://farrukhadeel:17301pker@cluster0.ysuiv.mongodb.ne
     //     },
     //   ],
     // });
+
+    // Slider.create([
+    //   {
+    //     title:"Learn JavaScript in very easy manner",
+    //     subTitle:"JavaScript is one of the most popular programming language.",
+    //     imageUrl:"/static/images/slider1.jpg",
+    //   },
+    //   //second one
+    //   {
+    //     title:"what is Node Js?",
+    //     subTitle:"Node. js (Node) is an open source development platform for executing JavaScript code server-side.",
+    //     imageUrl:"/static/images/slider2.jpg",
+    //   },
+    //   //third one
+    //   {
+    //     title:"what is React?",
+    //     subTitle:"React is a declarative, efficient, and flexible JavaScript library for building user interfaces.",
+    //     imageUrl:"/static/images/slider3.jpg",
+    //   },
+    // ]);
+    
+
+
 })
 .catch(err => {
     console.log(err)
