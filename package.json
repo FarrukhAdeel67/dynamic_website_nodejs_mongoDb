@@ -1,0 +1,31 @@
+{
+  "name": "dynamic_websit_nodejs_mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarrukhAdeel67/dynamic_website_nodejs_mongoDb.git"
+  },
+  "author": "Farrukh Adeel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarrukhAdeel67/dynamic_website_nodejs_mongoDb/issues"
+  },
+  "homepage": "https://github.com/FarrukhAdeel67/dynamic_website_nodejs_mongoDb#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.6.0",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
