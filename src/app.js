@@ -16,7 +16,7 @@ hbs.registerPartials('views/partials')
 
 //db connection
 //addpassword to database
-mongoose.connect("mongodb+srv://farrukhadeel:@cluster0.ysuiv.mongodb.net/dynamic_website")
+mongoose.connect("mongodb+srv://farrukhadeel:17301pker@cluster0.ysuiv.mongodb.net/dynamic_website")
 .then(result => {
     console.log("Database connected Successfully!");
 })
