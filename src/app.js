@@ -3,6 +3,7 @@ const app = express();
 const port = 5000;
 const hbs = require("hbs");
 const  mongoose = require('mongoose');
+const Detail = require("./models/Detail")
 
 const routes = require("./routes/main");//
 // e.g: static/css/style.css
@@ -19,6 +20,32 @@ hbs.registerPartials('views/partials')
 mongoose.connect("mongodb+srv://farrukhadeel:17301pker@cluster0.ysuiv.mongodb.net/dynamic_website")
 .then(result => {
     console.log("Database connected Successfully!");
+    // Detail.create({
+    //   brandName: "Info Technical Solution",
+    //   brandIconUrl: "../static/images/logo.png",
+    //   links:[
+    //     {
+    //       label:"Home",
+    //       url:"/"
+    //     },
+    //     {
+    //       label:"Services",
+    //       url:"/services"
+    //     },
+    //     {
+    //       label:"Gallery",
+    //       url:"/gallery"
+    //     },
+    //     {
+    //       label:"About",
+    //       url:"/about"
+    //     },
+    //     {
+    //       label:"Contact Us",
+    //       url:"/contact-us"
+    //     },
+    //   ],
+    // });
 })
 .catch(err => {
     console.log(err)
