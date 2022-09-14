@@ -1,7 +1,8 @@
-.slider-image{
-    height: 550px !important;
-    object-fit: cover;
+.slider-image {
+  height: 550px !important;
+  object-fit: cover;
 }
-#header-logo{
-    border-radius: 50%;
+.service_icon{
+    font-size: 100px;
 }
+
