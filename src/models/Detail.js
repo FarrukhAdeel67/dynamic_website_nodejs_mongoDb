@@ -9,5 +9,4 @@ const Detail = mongoose.Schema({
     },
   ],
 });
-
 module.exports = mongoose.model("detail", Detail);
