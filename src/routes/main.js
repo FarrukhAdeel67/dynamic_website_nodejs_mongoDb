@@ -13,6 +13,7 @@ routes.get("/", async (req, res) => {
     slides,
   });
 });
+
 routes.get("/gallery", async (req, res) => {
   const details = await Detail.findOne({
     _id: "632063b74fd8ba361252e4fc",
