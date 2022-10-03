@@ -7,6 +7,7 @@ const Detail = require("./models/Detail");
 const Slider = require("./models/Slider");
 
 const routes = require("./routes/main"); 
+
 // e.g: static/css/style.css
 app.use("/static", express.static("public"));
 app.use("", routes);
